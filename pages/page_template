@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Arrystagram | Titulo de pagina</title>
+    <link rel="icon" href="../img/icons/logo.ico">
+
+    <script src="../code/script.js"></script>
+
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar__res" id="id_navbar__res">
+        <a onclick="show()" id="navbar__menu" ><img src="../img/icons/menu.png" class="navbar__img"></a>
+        <a href="../index.html"><img id="navbar__logo" src="../img/icons/logo.ico" ></a>
+
+        <ul class="navbar__ul__res" id="navbar__ul__res">
+            <li class="navbar__li__res"><a class="navbar__a" href="../index.html"><img class="navbar__img" src="../img/icons/home.png">Home</a></li>
+            <li class="navbar__li__res"><a class="navbar__a" href="../pages/personajes.html"><img class="navbar__img" src="../img/icons/pjs.png">Personajes</a></li>
+            <li class="navbar__li__res"><a class="navbar__a" href="../pages/mapa.html"><img class="navbar__img" src="../img/icons/map.png">Mapas</a></li>
+            <li class="navbar__li__res"><a class="navbar__a" href="../pages/alquimia.html"><img class="navbar__img" src="../img/icons/potion.png">Alquimia</a></li>
+            <li class="navbar__li__res"><a class="navbar__a" href="../pages/items.html"><img class="navbar__img" src="../img/icons/magic.png">Items</a></li>
+            <li class="navbar__li__res"><a class="navbar__a" href="../pages/bestiario.html"><img class="navbar__img" src="../img/icons/beast.png">Bestiario</a></li>
+        </ul>
+    </nav>
+
+    <div class="home__title title" style="white-space: pre-line;">
+        <h1 class="title" >Titulo de Pagina</h1>
+    </div>
+
+
+    <footer>
+        <ul class="footer__ul">
+            <li class="footer__li">Arrystagram  </li>
+            <li class="footer__li"><a target="_BLANK" href="https://github.com/Acid-Blast"><img src="../img/github.png" ></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
